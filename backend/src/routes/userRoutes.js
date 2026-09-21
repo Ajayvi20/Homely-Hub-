@@ -11,7 +11,7 @@ import {
   updateMe,
   updatePassword,
 } from "../Controllers/authControllers.js";
-import {writeDescription} from "../controllers/tripController.js"
+import {writeDescription} from "../Controllers/tripController.js"
 
 import { createProperty, getUsersProperties } from "../Controllers/propertyController.js";
 

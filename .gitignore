@@ -5,3 +5,5 @@ dist/
 build/
 .vscode/
 .DS_Store
+.env
+backend/.env

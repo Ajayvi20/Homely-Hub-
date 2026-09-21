@@ -4,7 +4,7 @@ const bookingRouter=express.Router();
 
 import{getBookingDetails,getUserBookings,createOrder,verifyPayment,cancelBooking} from "../Controllers/BookingControllers.js";
 
-import { protect } from "../controllers/authControllers.js";
+import { protect } from "../Controllers/authControllers.js";
 
 bookingRouter.get("/",protect,getUserBookings);  //get all bookings of user
 bookingRouter.get("/:bookingId",getBookingDetails);  //get booking details of a particular booking

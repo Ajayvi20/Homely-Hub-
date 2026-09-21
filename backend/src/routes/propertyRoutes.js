@@ -1,6 +1,6 @@
 import express from "express";
-import {getProperties} from "../controllers/propertyController.js";
-import {getProperty} from "../controllers/propertyController.js";
+import {getProperties} from "../Controllers/propertyController.js";
+import {getProperty} from "../Controllers/propertyController.js";
 import e from "express";
 
 
