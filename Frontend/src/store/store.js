@@ -1,0 +1,24 @@
+import { configureStore } from "@reduxjs/toolkit";
+import propertySlice from "./Property/property-slice";
+import propertyDetailsSlice from "./PropertyDetails/propertyDetails-slice";
+import userSlice from "./user/user-slice";
+import bookingSlice from "./Booking/booking-slice.js";
+import accomodationSlice from "./Accomodation/accomodation-slice";
+import paymentSlice from "./payment/payment-slice";
+
+
+const store = configureStore({
+    reducer: {
+        properties: propertySlice.reducer,
+        propertyDetails: propertyDetailsSlice.reducer,
+        booking: bookingSlice.reducer,
+        user: userSlice,
+        accomodation: accomodationSlice.reducer, 
+        payment: paymentSlice.reducer
+        
+
+        
+    }
+
+})
+export default store;
