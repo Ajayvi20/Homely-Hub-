@@ -10,10 +10,10 @@ import {
   signup,
   updateMe,
   updatePassword,
-} from "../controllers/authControllers.js";
+} from "../Controllers/authControllers.js";
 import {writeDescription} from "../controllers/tripController.js"
 
-import { createProperty, getUsersProperties } from "../controllers/propertyController.js";
+import { createProperty, getUsersProperties } from "../Controllers/propertyController.js";
 
 const router = express.Router();
 
