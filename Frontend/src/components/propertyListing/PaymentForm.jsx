@@ -4,7 +4,7 @@ import { DatePicker, Space } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import moment from "moment";
-import { setPaymentDetails } from "../../store/Payment/payment-slice";
+import { setPaymentDetails } from "../../store/payment/payment-slice";
 
 const PaymentForm = ({
   price,
