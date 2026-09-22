@@ -3,7 +3,7 @@ import propertySlice from "./Property/property-slice";
 import propertyDetailsSlice from "./PropertyDetails/propertyDetails-slice";
 import userSlice from "./user/user-slice";
 import bookingSlice from "./Booking/booking-slice.js";
-import accomodationSlice from "./Accomodation/accomodation-slice";
+import accomodationSlice from "./Accomodation/Accomodation-slice";
 import paymentSlice from "./payment/payment-slice";
 
 
