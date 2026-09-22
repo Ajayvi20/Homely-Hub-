@@ -5,7 +5,7 @@ import { updateUser } from "../../store/User/user-action";
 import { useForm } from "@tanstack/react-form";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import { userActions } from "../../store/User/user-slice";
+import { userActions } from "../../store/user/user-slice.js";
 
 const EditProfile = () => {
   const { user, errors, loading } = useSelector((state) => state.user);

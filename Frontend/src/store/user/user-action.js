@@ -1,4 +1,4 @@
-import { userActions } from "./user-slice.js";
+import {userActions}  from "..user/user-slice.js";
 import axiosInstance from "../../utils/axios.js";
 
 export const getSignup=(user)=> async(dispatch)=>{
